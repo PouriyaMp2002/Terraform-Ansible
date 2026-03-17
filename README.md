@@ -106,6 +106,7 @@ ansible-playbook -i inventory.ini playbook.yml
 # Destroy infrastructure
 terraform destroy
 ```
+The `--auto-approve` flag can be used with `terraform apply` and `terraform destroy` to run commands without manual confirmation.
 ---
 
 This project demonstrates how Terraform and Ansible can be combined to automate infrastructure provisioning and server configuration on AWS. It highlights key DevOps principles such as Infrastructure as Code, automation, and scalable environment design.
